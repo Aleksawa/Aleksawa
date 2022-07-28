@@ -77,4 +77,44 @@ result = max(1,2,3,4,5,abs(-31))
 print(result)
 
 
+my_cool_str = "мій кльовий рядок"
+my_cool_str_2 = 'ще літерки'
+my_cool_str_3 = '''А що так можно було!?!'''
+my_cool_str_4 = """та шо тут коється?!"""
+my_cool_str_5 = str(1)
+my_cool_str_6 = str(5.6)
+my_cool_str_7 = str(True)
+my_cool_str_8 = str(None)
+my_cool_str_9 = str([1, 2, 3])
+sum_ = my_cool_str + " " + my_cool_str_2 + " " + my_cool_str_2
+print(sum_)
+multiplication = my_cool_str_3 * 2
+print(multiplication)
+multiplication = my_cool_str_9 * 2
+print(multiplication)
+
+
+
+new_book = "Hello my name is Alex.I am 33 \nLet me say intronduce myself. \t I am from Odessa "
+print(new_book)
+
+
+
+value_1 = 3.2
+value_2 = 6
+value_3 = 9
+
+result = value_1 * 3
+print(value_1 , type(value_1))
+result = value_1 * value_3
+print(result)
+
+result = value_1 * value_2
+print(result)
+
+name = 'Aleksandr'
+family_name = 'Bushev'
+text = f'''Hello {name} {family_name}''' #text = '''Hello {n} {f}'''. format(n=name,f=family_name)
+print(text)
+
 
