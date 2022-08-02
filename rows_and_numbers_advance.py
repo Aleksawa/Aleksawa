@@ -1,4 +1,6 @@
-name = " wiLLiam "
+name = input()
+result = f"Hello { name } "
+print(result)
 a = name.strip()
 print(a)
 print(a.capitalize())
