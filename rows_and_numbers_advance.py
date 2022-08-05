@@ -10,7 +10,3 @@ print(a.lower(), a.upper())
 print(f'''Hello {a.capitalize()}''')
 print(len(a))
 print(a[::-1])
-
-
-
-
