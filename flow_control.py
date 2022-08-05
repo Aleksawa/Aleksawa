@@ -6,12 +6,12 @@ operand_1 = int(operand_1) if operand_1.isdigit() else float(operand_1)
 operand_3 = int(operand_3) if operand_3.isdigit() else float(operand_3)
 
 if operand_2 == '-':
-    print(operand_1 - operand_3)
+    print(operand_1 - operand_3, type(operand_1 - operand_3))
 elif operand_2 == '+':
-    print(operand_1 + operand_3)
+    print(operand_1 + operand_3,  type(operand_1 - operand_3))
 elif operand_2 == '/':
-    print(operand_1/operand_3)
+    print(operand_1/operand_3,  type(operand_1 - operand_3))
 elif operand_2 == '*':
-    print(operand_1 * operand_3)
+    print(operand_1 * operand_3,  type(operand_1 - operand_3))
 else:
     print("Error")
