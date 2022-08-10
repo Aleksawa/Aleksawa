@@ -12,8 +12,8 @@ for index, letter in enumerate(input_data):
     if letter >= 'A' and letter <= 'Z':
         print(letter, 'big')
 
-    if letter in "qeuio" or letter in "QEUIO":
-        vowels.append(letter)
+    if letter in "oeau" or letter in "OEAU":
+        print("vowel")
 
 
     try:
