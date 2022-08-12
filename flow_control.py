@@ -9,24 +9,19 @@ while True:
     if calculation == '-':
         print(num_1 - num_2, type(num_1 - num_2))
         continue
-        # break
     elif calculation == '+':
         print(num_1 + num_2,  type(num_1 + num_2))
         continue
-        # break
     elif calculation == '/':
         if num_2 == 0:
             print("ZeroDivisionError")
             continue
-            # break
         else:answer = num_1 / num_2
         print(num_1/num_2,  type(num_1/num_2))
         continue
-            # break
     elif calculation == '*':
         print(num_1 * num_2,  type(num_1 * num_2))
         continue
-        # break
     else:
         print("Error")
 
